@@ -1,5 +1,5 @@
 # Medrec Sample UI web application
-A sample UI app built for MedRec Platform API's using Vue.js framework
+A sample UI application built for MedRec Platform API's using Vue.js framework
 
 
 > A Vue.js project for Medrec App
