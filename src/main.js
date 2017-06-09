@@ -6,9 +6,11 @@ import Home 		from './components/Home'
 import TimeEntries 	from './components/TimeEntries'
 import LogTime 		from './components/LogTime'
 import Appointments from './components/Appointments'
+import Drugs from './components/Drugs'
 
 import VueRouter 	from 'vue-router'
 import VueResource 	from 'vue-resource'
+
 
 Vue.use(VueResource)
 Vue.use(VueRouter)
@@ -26,6 +28,7 @@ const router = new VueRouter({
 			]
 		},
 		{ path: '/appointment-entries', component: Appointments},
+		{ path: '/drugs-inventory', component: Drugs},
 		{ path: '*', redirect: '/home'}
 	],
 	mode: 'history' 

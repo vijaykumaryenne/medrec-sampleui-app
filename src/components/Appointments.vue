@@ -9,9 +9,9 @@
             </div>
             <div class="panel-body">
             <div>
-                <input class="form-control" required  type="text" placeholder="appointment name" v-model="appointment.title">
-                <textarea class="form-control"   type="text" placeholder="appointment detail" v-model="appointment.detail"></textarea>
-                <input type="date" class="form-control" placeholder="appointment date" v-model="appointment.date">
+                <input class="form-control"   type="text" placeholder="appointment name" v-model="appointment.title"><br>                
+                <textarea class="form-control"   type="text" placeholder="appointment detail" v-model="appointment.detail"></textarea><br>
+                <input type="date" class="form-control" placeholder="appointment date" v-model="appointment.date"><br>
                 <button class="btn btn-primary" v-on:click="addAppointment">Submit</button>
             </div>
             </div>
@@ -35,7 +35,7 @@
 </template>
 <script>
     import store from '../store'
-
+    
     export default {
         data () {
          return {
