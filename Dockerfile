@@ -1,4 +1,5 @@
 FROM node:boron
+MAINTAINER Vijay Kumar Yenne <vijaykumar.yenne@oracle.com>
 # Create app directory
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
