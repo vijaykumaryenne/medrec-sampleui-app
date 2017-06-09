@@ -87,9 +87,11 @@ docker push yourhubusername/image_name
 
 ```
 
-## Deploy it on Oracle Container Cloud Service (OCCS)
+## Deploy and Run it on Oracle Container Cloud Service (OCCS) from Docker Hub registry
 
 For detailed explanation on the service check out (https://cloud.oracle.com/en_US/container)
+
+0. Register your Docker Hub Account with OCCS from the container console.
 
 1. Create a Service in OCCS from the container console
 Service Name:
