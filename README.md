@@ -39,8 +39,10 @@ EXPOSE 3000
 CMD ["npm", "run", "dev"]
 ```
 2. Create .dockerignore file at the same location and add the below entries.
+``` bash
 node_modules
 npm-debug.log
+```
 
 ## Create a Docker Container
 3. Execute this docker command from the application path :
