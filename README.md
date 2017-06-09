@@ -53,7 +53,7 @@ docker build -t <Image_Name> .
 ## List and run the Docker Image
 4. The image built can be listed with the below command.
 ``` bash
-list the images : docker images
+docker images
 ```
 5. Run the image. Running your image with -d runs the container in detached mode, leaving the container running in the background. The -p flag redirects a public port to a private port inside the container. 
 
@@ -62,7 +62,10 @@ docker run -p 49160:3000 -d <Image_Name>
 
 ```
 6. Get container ID
+
+``` bash
 $ docker ps
+```
 
 ## Ship it to Docker Hub
 
