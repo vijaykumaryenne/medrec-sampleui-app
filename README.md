@@ -94,9 +94,14 @@ For detailed explanation on the service check out (https://cloud.oracle.com/en_U
 0. Register your Docker Hub Account with OCCS from the container console.
 
 1. Create a Service in OCCS from the container console
+
+``` bash
+
 Service Name:
 Image: yourhubusername/image_name
 Add Ports Configuration: Host Port: 41960 Container Port: 3000 tcp
+
+```
 
 2. save changes
 
