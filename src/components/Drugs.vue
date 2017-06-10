@@ -7,21 +7,29 @@
             <p class="list-group-item-text" >Manufactured by : {{ drug.company }}</p>            
             </a>
         </div>
+        <ul v-if="errors && errors.length">
+          <li v-for="error of errors">
+            {{error.message}}
+          </li>
+        </ul>
   </div>    
 </template>
 <<script>
+import {HTTP} from '../http-common';
 export default {
   name: 'drugslist',
-  data(){
-      return{
-          drugs: []
-      }
-  },
-  created: function () {
-      this.$http.get('http://localhost:9000/drugs')
+  data: () => ({
+      drugs: [],
+      errors: []
+  }),
+  created() {
+      HTTP.get('drugs')
       .then(response => {
         this.drugs = response.data;
-      });
+      })
+      .catch(e => {
+        this.errors.push(e)
+      })      
   }
 }
 </script>

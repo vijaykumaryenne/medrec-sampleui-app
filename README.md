@@ -3,8 +3,9 @@ A sample responsive web application built for MedRec Platform API's using Vue.js
 uses Bootstrap theme.
 
 
-> A Vue.js project for Medrec App. The app ha the functinality to log/track time, create or remove appointments and lists Drug Inventory calling the MedRec APIs.
+> A Vue.js project for Medrec App. The app has the functionality to log/track time, create or remove appointments and lists Drug Inventory calling the MedRec APIs.
 
+> Axios is the http client library used to invoke the MedRec API's. It uses promises by default and runs on both the client and the server (which makes it appropriate for fetching data during server-side rendering). 
 
 ## Build Setup
 
