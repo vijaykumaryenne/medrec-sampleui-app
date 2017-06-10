@@ -15,7 +15,13 @@
       </div>
     </nav>
     <div class="container">
-      <div class="col-sm-3"  v-if="$route.path != '/appointment-entries'">
+      <div class="col-sm-3"  v-if="$route.path == '/time-entries'">
+        <sidebar :time="totalTime"></sidebar>
+      </div>
+      <div class="col-sm-3"  v-else-if="$route.path == '/'">
+        <sidebar :time="totalTime"></sidebar>
+      </div>
+      <div class="col-sm-3"  v-else-if="$route.path == '/log-time'">
         <sidebar :time="totalTime"></sidebar>
       </div>
       <div class="col-sm-9">
