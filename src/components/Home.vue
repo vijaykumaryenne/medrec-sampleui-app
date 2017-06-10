@@ -1,6 +1,6 @@
 <template>
   <div class="jumbotron">
-    <h1>MedRec Time Tracker</h1>
+    <h1>MedRec App</h1>
     <p>
       <strong>
         Get started by <a v-bind:href="'/time-entries'">creating a time entry</a>.
