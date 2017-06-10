@@ -1,6 +1,5 @@
 # Medrec Sample UI web application
-A sample responsive web application built for MedRec Platform API's using Vue.js framework. The application
-uses Bootstrap theme.
+A sample responsive web application built for MedRec Platform API's using Vue.js framework. The application leverages material desgin.
 
 
 > A Vue.js project for Medrec App. The app has the functionality to log/track time, create or remove appointments and lists Drug Inventory calling the MedRec APIs.
