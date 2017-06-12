@@ -11,6 +11,7 @@
           <router-link tag="li" to="/time-entries"><a>Time Entries</a></router-link>
           <router-link tag="li" to="/appointment-entries"><a>Appointments</a></router-link>
           <router-link tag="li" to="/drugs-inventory"><a>Drugs Inventory</a></router-link>
+          <router-link tag="li" to="/physicians-list"><a>Physicians List</a></router-link>
         </ul>
       </div>
     </nav>
@@ -23,7 +24,7 @@
       </div>
       <div class="col-sm-3"  v-else-if="$route.path == '/log-time'">
         <sidebar :time="totalTime"></sidebar>
-      </div>
+      </div>      
       <div class="col-sm-9">
         <router-view></router-view>
       </div>
