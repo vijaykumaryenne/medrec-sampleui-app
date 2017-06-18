@@ -119,4 +119,10 @@ Add Ports Configuration: Host Port: 41960 Container Port: 3000 tcp
 
 6. Access the application : http://host-ip:41960
 
+## Automated Build Process using DockerHub.
+1. Create a Docker Hub Account.
+2. Enable the Automatic Build by pointing to the GitHub Repo.
+3. Everytime you make a commit to Github, the image is automatically built and available on the Docker Hub.
+
+
 
